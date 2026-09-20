@@ -1,8 +1,5 @@
 .header {
-    display:flex;
-    flex-wrap:wrap;
-    gap : 232.5px;
-    padding: 28px 168px;
+background-color: #45adff;
 }
 .menu ul{
     display:flex;
@@ -13,4 +10,34 @@
     display:flex;
     flex-wrap:wrap;
     gap:24px;
+}
+.container{
+    width: calc( 100% - 330px );
+    margin:auto;
+}
+.row{
+    display:flex;
+   flex-wrap:wrap;
+    align-items:center;
+}
+.header .row{
+      gap : 232.5px;
+    padding: 28px;
+}
+.collection ul{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    gap:30px;
+    padding:80px 0;
+}
+.best{
+    text-align: center;
+    margin:48px 0; 
+}
+.bestSellers ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap:40px 30px;
+
 }
