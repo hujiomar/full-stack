@@ -1,49 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/main.css">
 </head>
+
 <body>
-<header class="header">
-<div class="container">
-    <div class="row">
-      <div class="logo">
-    <a href="#"><img src="./assets/imgs/logo12.svg" alt="logo"></a>
-    </div>
-<nav class="menu">
-    <ul>
-        <li>
-            <a href="#">Home</a>
-        </li>
-    <li>
-        <a href ="#">Courses</a>
-    </li>
-   <li>
-       <a href="#">Careers</a>
-   </li> 
-   <li>
-    <a href="#">Careers</a>
-   </li>
-   <li>
-    <a href ="#">Blog</a>
-   </li>
-   <li>
-     <a href="#">Contact</a>
-   </li>
-    </ul>
-</nav>
-<div class ="profile"><a href="#"><img src="./assets/imgs/image 12.png" alt="profile"> </a>
-    <a href "#">Lina</a>
-</div>
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="logo">
+                    <a href="#"><img src="./assets/imgs/logo12.svg" alt="logo"></a>
+                </div>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Courses</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="profile">
+                    <a href="#"><img src="./assets/imgs/image 12.png" alt="profile"></a>
+                    <a href="#">Lina</a>
+                </div>
+            </div>
+        </div>
+    </header>
 
-</div>
+    <main>
+        <div class="container">
+            <div class="welcome-section">
+                <h2>Welcome back, ready for your next lesson?</h2>
+                <a href="#">View history</a>
+            </div>
 
-    </div>
-</header>
-    
+            <div class="enrolled-courses">
+                <ul class="course-list">
+                    <li>
+                        <div class="course-card">
+                            <div class="img">
+                                <img src="./assets/imgs/enroll/Group 40.png" alt="course image">
+                           
+                            <h3>AWS Certified Solutions Architect</h3>
+                            </div>
+                            <div class="profile">
+                                <a href="#"><img src="./assets/imgs/image 12.png" alt="profile"></a>
+                                <a href="#">Lina</a>
+                            </div>
+                            <img src="./assets/imgs/enroll/Group 273.png" alt="progress bar">
+                            <span>Lesson 5 of 7</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="course-card">
+                            <div class="img">
+                                <img src="./assets/imgs/enroll/Group 40 (1).png" alt="course image">
+                                <h3>AWS Certified Solutions Architect</h3>
+                            </div>
+                            <div class="profile">
+                                <a href="#"><img src="./assets/imgs/image 12.png" alt="profile"></a>
+                                <a href="#">Lina</a>
+                            </div>
+                            <img src="./assets/imgs/enroll/Group 273.png" alt="progress bar">
+                            <span>Lesson 5 of 7</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="course-card">
+                            <div class="img">
+                                <img src="./assets/imgs/enroll/Group 40 (2).png" alt="course image">
+                            <h3>AWS Certified Solutions Architect</h3>
+                            </div>
+                            <div class="profile">
+                                <a href="#"><img src="./assets/imgs/image 12.png" alt="profile"></a>
+                                <a href="#">Lina</a>
+                            </div>
+                            <img src="./assets/imgs/enroll/Group 273.png" alt="progress bar">
+                            <span>Lesson 5 of 7</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
 </body>
+
 </html>

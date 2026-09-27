@@ -20,4 +20,6 @@ ul{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    padding: 20px;
+    justify-content: space-between;
 }

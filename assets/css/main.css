@@ -1,5 +1,5 @@
-.header .row{
-    gap: 240px;
+body{
+    font-family: poppins;
 }
 .header ul{
     display: flex;
@@ -7,13 +7,11 @@
     gap:30px;
 }
 .header ul li a{
-    font-family: poppins;
     font-size: 22px;
     font-weight: 400;
     color:#5B5B5B;
 }
 .header .profile a{
-    font-family: poppins;
     font-size: 18px;
     font-weight: 500;
     color:#000000;
@@ -44,3 +42,62 @@
     }
     
 }
+
+main .container{
+    background-color: #9DCCFF;
+    padding: 24px;
+
+}
+main .welcome-section h2{
+    font-weight: 600;
+    font-size: 30px;
+    color: #252641;
+}
+main .welcome-section a{
+    font-weight: 700;
+    font-size: 20px;
+    color:#49BBBD;
+}
+main .welcome-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ padding: 50px;
+ align-items: center;
+    
+}
+main ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+main .img{
+    text-align: center;
+}
+main .img img{
+    width: 100%;
+}
+main li{
+    width: calc((100% - 90px) / 3);
+}
+main .course-card{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px; 
+}
+main .course-card span{
+    align-self:flex-end;
+}
+main .imgs h3{
+   text-align: center;
+   font-weight: 600;
+   font-size: 24px;
+   color: #252641;
+}
+
+
+
+
