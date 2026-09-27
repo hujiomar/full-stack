@@ -13,3 +13,11 @@ button{
 ul{
     list-style-type: none;
 }
+.container{
+    margin: 0 120px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
