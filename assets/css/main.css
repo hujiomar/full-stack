@@ -1,6 +1,10 @@
 body{
     font-family: poppins;
 }
+img, video, canvas {
+  max-width: 100%;
+  height: auto;
+}
 .header ul{
     display: flex;
     flex-wrap: wrap;
@@ -15,32 +19,6 @@ body{
     font-size: 18px;
     font-weight: 500;
     color:#000000;
-}
-@media screen and (min-width:320px) and (max-width:767px){
-    .logo img{
-        width: 60%;
-    }
-    .profile img{
-        width: 60%;
-    
-    }
-    .container{
-        margin: 0 20px;
-    }
-    .header ul{
-        gap:15px;
-    }
-    .header .row{
-        gap: 80px;
-    }
-    
-    .header ul li a{
-        font-size: 15px;
-    }
-    .header .profile a{
-        font-size: 12px;
-    }
-    
 }
 main{
     margin-bottom: 80px;
@@ -347,4 +325,366 @@ footer .footer-nav li:not(:last-child) {
   border-right: 1px solid #626381;
   padding-right: 20px;
   margin-right: 15px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .container {
+        margin: 0 40px;
+    }
+
+    /* Header */
+    .header .row {
+        gap: 20px;
+    }
+
+    .header ul {
+        gap: 15px;
+    }
+
+    .header ul li a {
+        font-size: 17px;
+    }
+
+    .header .profile a {
+        font-size: 15px;
+    }
+
+    .logo img {
+        width: 75%;
+    }
+
+    .profile img {
+        width: 45px;
+    }
+
+
+    /* Main / Enrolled Courses */
+    main {
+        margin-bottom: 60px;
+    }
+
+    main .container {
+        padding: 20px;
+    }
+
+    main .welcome-section {
+        padding: 30px;
+    }
+
+    main .welcome-section h2 {
+        font-size: 25px;
+    }
+
+    main .welcome-section a {
+        font-size: 17px;
+    }
+
+    main li {
+        width: calc((100% - 30px) / 2);
+    }
+
+
+    /* Courses */
+    .courses h2 {
+        font-size: 28px;
+    }
+
+    .courses h3 {
+        font-size: 24px;
+    }
+
+    .courses p {
+        font-size: 16px;
+    }
+
+    .courses li {
+        width: calc((100% - 30px) / 2);
+    }
+
+
+    /* Recommendations */
+    .recommendations li {
+        width: calc((100% - 30px) / 2);
+        padding: 10px;
+    }
+
+    .recommendations p {
+        font-size: 16px;
+    }
+
+    .recommendations .e {
+        font-size: 21px;
+    }
+
+    .recommendations .h {
+        font-size: 16px;
+    }
+
+
+    /* Footer */
+    footer h3 {
+        font-size: 22px;
+    }
+
+    footer a,
+    footer .copyright {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+    /* General */
+    .container {
+        margin: 0 20px;
+    }
+
+    section {
+        margin-bottom: 50px;
+    }
+
+    .header .row {
+        flex-direction: column;
+        gap: 20px;
+        padding: 15px 0;
+    }
+
+    .header .logo img {
+        width: 120px;
+    }
+
+    .header .menu {
+        width: 100%;
+    }
+
+    .header ul {
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .header ul li a {
+        font-size: 13px;
+    }
+
+    .header .profile {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .header .profile img {
+        width: 35px;
+    }
+
+    .header .profile a {
+        font-size: 13px;
+    }
+
+    main {
+        margin-bottom: 50px;
+    }
+
+    main .container {
+        padding: 15px;
+    }
+
+    main .welcome-section {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        padding: 20px 10px;
+    }
+
+    main .welcome-section h2 {
+        font-size: 21px;
+        line-height: 1.4;
+    }
+
+    main .welcome-section a {
+        font-size: 15px;
+    }
+
+    main ul {
+        gap: 20px;
+    }
+
+    main li {
+        width: 100%;
+    }
+
+    main .course-card {
+        padding: 15px;
+    }
+
+    main .img img {
+        width: 100%;
+    }
+
+    main .course-card h3 {
+        font-size: 19px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    main .course-card span {
+        font-size: 13px;
+    }
+
+    .courses h2 {
+        font-size: 24px;
+        line-height: 1.4;
+    }
+
+    .courses ul {
+        gap: 20px;
+        padding: 10px 0;
+    }
+
+    .courses li {
+        width: 100%;
+        padding: 20px 15px;
+    }
+
+    .courses h3 {
+        font-size: 22px;
+    }
+
+    .courses p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .img-f,
+    .img-computer,
+    .img-dev,
+    .img-Business,
+    .img-act,
+    .img-markiting,
+    .img-photogarphy {
+        width: 70px;
+        height: 70px;
+    }
+    .recommendations ul {
+        gap: 20px;
+    }
+
+    .recommendations li {
+        width: 100%;
+        padding: 0;
+    }
+
+    .recommendations .container {
+        padding: 15px;
+    }
+
+    .recommendations h2 {
+        font-size: 24px;
+    }
+
+    .recommendations .course-card {
+        gap: 15px;
+        padding: 10px;
+    }
+
+    .recommendations .m {
+        width: 100%;
+        height: auto;
+    }
+
+    .recommendations .cd {
+        gap: 10px;
+    }
+
+    .recommendations .cd div {
+        gap: 6px;
+        align-items: center;
+    }
+
+    .recommendations .cd p {
+        font-size: 12px;
+    }
+
+    .recommendations h3 {
+        font-size: 20px;
+        line-height: 1.4;
+    }
+
+    .recommendations p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .recommendations .profile {
+        gap: 10px;
+        align-items: center;
+    }
+
+    .recommendations .profile img {
+        width: 35px;
+    }
+
+    .recommendations .h {
+        font-size: 14px;
+    }
+
+    .recommendations .e {
+        font-size: 20px;
+    }
+
+
+    footer {
+        padding: 30px 15px;
+        text-align: center;
+    }
+
+    footer .logo {
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer .logo img {
+        width: 100px;
+    }
+
+    footer .separator {
+        height: 25px;
+        margin: 0 10px;
+    }
+
+    footer .lo {
+        font-size: 15px;
+    }
+
+    footer h3 {
+        font-size: 18px;
+    }
+
+    footer form {
+        width: 100%;
+        justify-content: center;
+    }
+
+    footer form input {
+        width: 60%;
+        padding: 10px 15px;
+    }
+
+    footer form button {
+        padding: 10px 15px;
+    }
+
+    footer .footer-nav ul {
+        justify-content: center;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    footer a {
+        font-size: 14px;
+    }
+
+    footer .copyright {
+        font-size: 14px;
+    }
+
 }
