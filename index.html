@@ -4,386 +4,317 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Document</title>
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+
 </head>
 
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="row">
-                <div class="logo">
-                    <a href="#"><img src="./assets/imgs/logo12.svg" alt="logo"></a>
+    <div class="organizer">
+
+
+
+        <div class="shadow">
+            <div class="container">
+                <header class="header">
+                    <a href="#" class="logo"><img src="./assets/imgs/Background+Shadow.svg">
+                        <span class="logo-text">BREW & BEAN</span>
+                    </a>
+
+                    <nav class="navbar">
+                        <a href="#" class="home">Home</a>
+                        <a href="#">Our Story</a>
+                        <a href="#">Menu</a>
+                        <a href="# ">Contact</a>
+                    </nav>
+
+                    <a href="#"><button class="visit">Visit Us</button></a>
+                </header>
+            </div>
+        </div>
+        <main class="main">
+
+            <section class="hero">
+                <div class="content">
+                    <div class="badge">
+                        <img src="./assets/imgs/Icon.svg">
+                        <span>FRESHLY BREWED DAILY</span>
+                    </div>
+                    <h1>Your Daily Dose of Happiness.</h1>
+                    <p>Savor the warmth of ethically sourced, masterfully roasted coffee
+                        beans crafted into artisanal cups made just for your morning ritual.</p>
+                    <div class="hero_actions">
+                        <button class="btn1">Explore Our Menu</button>
+                        <button class="btn2">Our Story</button>
+                    </div>
+                    <div class="hero_stats">
+                        <div class="stat-item">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">Roast Varieties</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Organic Certified</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item">
+                            <span class="stat-number">4.9 ★</span>
+                            <span class="stat-label">Neighborhood Rating</span>
+                        </div>
+                    </div>
                 </div>
-                <nav class="menu">
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Courses</a></li>
-                        <li><a href="#">Careers</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </nav>
-                <div class="profile">
-                    <a href="#"><img src="./assets/imgs/image 12.png" alt="profile"></a>
-                    <a href="#">Lina</a>
+                <div class="hero_img">
+                    <!-- Tilted beige card behind the photo -->
+                    <div class="img-backdrop"></div>
+
+                    <!-- Main white-bordered photo wrapper -->
+                    <div class="img-wrapper">
+                        <img src="./assets/imgs/Aesthetic latte art in ceramic cup on wooden table in warm morning light.png"
+                            alt="Freshly brewed latte with latte art">
+
+                        <!-- Floating bottom-left badge -->
+                        <div class="floating-badge">
+                            <div class="badge-icon">
+                                <img src="./assets/imgs/Container.svg" alt="Roast icon">
+                            </div>
+                            <div class="badge-text">
+                                <p>Micro-Roasted</p>
+                                <span>Crafted every sunrise</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="favorites">
+                <div class="container">
+                    <div class="title">
+                        <span>CURATED WITH CARE</span>
+                        <h2>Customer Favorites</h2>
+                        <p>Handcrafted drinks roasted to perfection, beloved by our neighborhood daily.</p>
+                    </div>
+                    <div class="favorites-imgs">
+
+                        <div class="favorite-card">
+                            <div class="card-img">
+                                <span class="card-tag">Signature</span>
+                                <img src="./assets/imgs/Classic hot cappuccino with rich velvety froth and cocoa dust.jpg"
+                                    alt="Classic Cappuccino">
+                                <span class="card-price">$4.50</span>
+                            </div>
+                            <div class="card-body">
+                                <h3>Classic Cappuccino</h3>
+                                <p>Rich espresso poured over steamed milk and capped with velvety micro-foam and cocoa.
+                                </p>
+                                <div class="roast-info">
+                                    <span>Roast Profile</span>
+                                    <span class="r">Medium Dark</span>
+                                </div>
+                                <div class="roast-progress medium-dark"></div>
+                                <button class="order-btn">Order Now &rarr;</button>
+                            </div>
+                        </div>
+                        <div class="favorite-card">
+                            <div class="card-img">
+                                <span class="card-tag">Best Seller</span>
+                                <img src="./assets/imgs/Decadent caramel latte with golden drizzle in clear glass cup.jpg" alt="Caramel Latte">
+                                <span class="card-price">$5.00</span>
+                            </div>
+                            <div class="card-body">
+                                <h3>Caramel Latte</h3>
+                                <p>Smooth espresso blended with sweet steamed milk, topped with house golden caramel
+                                    drizzle.</p>
+                                <div class="roast-info">
+                                    <span>Roast Profile</span>
+                                    <span class="r">Balanced Roast</span>
+                                </div>
+                                <div class="roast-progress balanced"></div>
+                                <button class="order-btn">Order Now &rarr;</button>
+                            </div>
+                        </div>
+
+                        <div class="favorite-card">
+                            <div class="card-img">
+                                <span class="card-tag">Barista Choice</span>
+                                <img src="./assets/imgs/Iced Spanish latte with layered espresso and sweet condensed milk.png" alt="Iced Spanish Latte">
+                                <span class="card-price">$5.50</span>
+                            </div>
+                            <div class="card-body">
+                                <h3>Iced Spanish Latte</h3>
+                                <p>Bold double espresso layered over chilled sweet condensed milk served over crystal
+                                    clear.</p>
+                                <div class="roast-info">
+                                    <span>Roast Profile</span>
+                                    <span>Bold Intensity</span>
+                                </div>
+                                <div class="roast-progress bold"></div>
+                                <button class="order-btn">Order Now &rarr;</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </section>
+                <section class="story">
+                <div class="container">
+                    <div class="story-img">
+                        <div class="img-backdrop">
+                            <img src="./assets/imgs/Stylishly illuminated cafe interior with natural oak wooden tables and espresso bar.jpg">
+                            <div class="img-overlay">
+                                <span>Est. 2018</span>
+                                <span class="r" >Crafting Community</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="story-content">
+                       <div class="badge">
+            <span>OUR HERITAGE</span>
+        </div>
+        <h2>More Than Just Coffee</h2>
+        <p class="story-desc">At BREW & BEAN, we believe every cup tells a story. From direct-trade farms in the highlands to your ceramic mug, we source each bean with intention and roast in small batches daily to bring you comfort, community, and craft in every sip.</p>
+
+        <div class="story-features">
+            <div class="feature-item">
+                <div class="feature-icon">
+                    <img src="./assets/imgs/leaf.svg" alt="Bean icon">
+                </div>
+                <div class="feature-text">
+                    <h4>Sustainably Sourced Beans</h4>
+                    <p>Ethically partnered with smallholder cooperatives that practice regenerative soil cultivation.</p>
+                </div>
+            </div>
+
+            <div class="feature-item">
+                <div class="feature-icon">
+                    <img src="./assets/imgs/kmash.svg" alt="Roast icon">
+                </div>
+                <div class="feature-text">
+                    <h4>Artisanal Roasting Process</h4>
+                    <p>Calibrated profiling that unlocks inherent floral, berry, and chocolate undertones in every origin.</p>
+                </div>
+            </div>
+
+            <div class="feature-item">
+                <div class="feature-icon">
+                    <img src="./assets/imgs/haret.svg" alt="Community icon">
+                </div>
+                <div class="feature-text">
+                    <h4>Warm Community Space</h4>
+                    <p>A peaceful sanctuary built for early morning contemplations, remote work, and deep conversations.</p>
                 </div>
             </div>
         </div>
-    </header>
 
-    <main>
+        <button class="story-btn">Discover Our Story &rarr;</button>
+                        
+                          
+                    </div>
+                </div>
+                </section>
+                
 
-        <div class="container">
-            <div class="welcome-section">
-                <h2>Welcome back, ready for your next lesson?</h2>
-                <a href="#">View history</a>
+                <section class="cta">
+                    <div class="container">
+    <div class="cta-card">
+        <div class="badge">
+            <img src="./assets/imgs/tickt.svg" alt="Icon">
+            <span>WELCOME SPECIAL</span>
+        </div>
+        <h2>Good Coffee. Great Moments.</h2>
+        <p>Get 20% off your first order when you join our neighborhood coffee club.</p>
+        <div class="cta-actions">
+            <div class="promo-code">
+                <img src="./assets/imgs/code.svg" alt="Coupon">
+                <span>Use code: <strong>BREW20</strong></span>
+            </div>
+            <button class="cta-btn">Get Your Offer</button>
+        </div>
+    </div>
+  </div>
+                    
+
+                </section>
+        </main>
+
+        <footer class="footer">
+
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <img src="./assets/imgs/Background+Shadow2.svg" alt="Brew & Bean Logo">
+                    <span>BREW & BEAN</span>
+                </a>
+                <p>Crafting cozy moments one cup at a time. Roasted fresh daily and served with heart in the center of the neighborhood.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Instagram"><img src="./assets/imgs/camera.svg" alt="Instagram"></a>
+                    <a href="#" aria-label="Website"><img src="./assets/imgs/earth.svg" alt="Website"></a>
+                    <a href="#" aria-label="Reviews"><img src="./assets/imgs/massage.svg" alt="Reviews"></a>
+                    <a href="#" aria-label="Pinterest"><img src="./assets/imgs/pin.svg" alt="Pinterest"></a>
+                </div>
             </div>
 
-            <div class="enrolled-courses">
-                <ul class="course-list">
-                    <li>
-                        <div class="course-card">
-                            <div class="img">
-                                <img src="./assets/imgs/enroll/Group 40.png" alt="course image">
-                           
-                            <h3>AWS Certified Solutions Architect</h3>
-                            </div>
-                            <div class="profile">
-                                <a href="#"><img src="./assets/imgs/image 12.png" alt="profile"></a>
-                                <a href="#">Lina</a>
-                            </div>
-                            <img src="./assets/imgs/enroll/Group 273.png" alt="progress bar">
-                            <span>Lesson 5 of 7</span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="course-card">
-                            <div class="img">
-                                <img src="./assets/imgs/enroll/Group 40 (1).png" alt="course image">
-                                <h3>AWS Certified Solutions Architect</h3>
-                            </div>
-                            <div class="profile">
-                                <a href="#"><img src="./assets/imgs/image 12.png" alt="profile"></a>
-                                <a href="#">Lina</a>
-                            </div>
-                            <img src="./assets/imgs/enroll/Group 273.png" alt="progress bar">
-                            <span>Lesson 5 of 7</span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="course-card">
-                            <div class="img">
-                                <img src="./assets/imgs/enroll/Group 40 (2).png" alt="course image">
-                            <h3>AWS Certified Solutions Architect</h3>
-                            </div>
-                            <div class="profile">
-                                <a href="#"><img src="./assets/imgs/image 12.png" alt="profile"></a>
-                                <a href="#">Lina</a>
-                            </div>
-                            <img src="./assets/imgs/enroll/Group 273.png" alt="progress bar">
-                            <span>Lesson 5 of 7</span>
-                        </div>
-                    </li>
+            <div class="footer-links">
+                <h4>QUICK LINKS</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Locations</a></li>
+                    <li><a href="#">FAQs</a></li>
                 </ul>
             </div>
-        </div>
-    </main>
-    <section class="courses">
-        <div class="container">
-            <h2>Choice favourite course from top category</h2>
-            <ul>
-                <li>
-                    <div class="course-card">
-                        <div class="img-f">
-                        <img src="./assets/imgs/courses/f.svg" alt="course image">
-                        </div>
-                        <h3>Business</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do eiusmod</p>
-                    </div>
-                </li>
-                 <li>
-                    <div class="course-card">
-                        <div class="img-computer">
-                        <img src="./assets/imgs/courses/computer.svg"  alt="course image">
-                        </div>
-                        <h3>Development</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do eiusmod</p>
-                    </div>
-                </li>
-                 <li>
-                    <div class="course-card">
-                        <div class="img-dev">
-                        <img src="./assets/imgs/courses/dev.svg"  alt="course image">
-                       </div>
-                        <h3>Development</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do eiusmod</p>
-                    </div>
-                </li>
-                 <li>
-                    <div class="course-card">
-                        <div class="img-Business">
-                        <img src="./assets/imgs/courses/Business.svg"  alt="course image">
-                    </div>
-                        <h3>Design</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do eiusmod</p>
-                    </div>
-                </li>
-                 <li>
-                    <div class="course-card">
-                        <div class="img-markiting">
-                        <img src="./assets/imgs/courses/markitng.svg" alt="course image">
-                       </div>
-                        <h3>Marketing</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do eiusmod</p>
-                    </div>
-                </li>
-                 <li>
-                    <div class="course-card">
-                        <div class="img-photogarphy">
-                        <img src="./assets/imgs/courses/photogarphy.svg"  alt="course image">
-                        </div>
-                        <h3>Photography</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do eiusmod</p>
-                    </div>
-                </li>
-                 <li>
-                    <div class="course-card">
-                        <div class="img-act">
-                        <img src="./assets/imgs/courses/act.svg"  alt="course image">
-                        </div>
-                        <h3>Acting</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do eiusmod</p>
-                    </div>
-                </li>
-                 <li>
-                    <div class="course-card">
-                        <div class="img-Business">
-                         <img src="./assets/imgs/courses/Business.svg"  alt="course image">
-                        </div>
-                         <h3>Business</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do eiusmod</p>
-                    </div>
-                </li>
-            </ul>
+
+        
+            <div class="footer-hours">
+                <h4>OPENING HOURS</h4>
+                <div class="hours-group">
+                    <strong>Monday – Friday</strong>
+                    <span>7:00 AM – 7:00 PM</span>
+                </div>
+                <div class="hours-group">
+                    <strong>Saturday – Sunday</strong>
+                    <span>8:00 AM – 8:00 PM</span>
+                </div>
+                <div class="status-badge">
+                    <span class="dot"></span>
+                    <span>Barista Counter Open Now</span>
+                </div>
+            </div>
+
+            <div class="footer-newsletter">
+                <h4>COFFEE DISPATCH</h4>
+                <p>Receive seasonal tasting release notes, brew guides, and secret weekend roasts.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Join</button>
+                </form>
+                <span class="privacy-note">No spam. Only freshly roasted news.</span>
+            </div>
         </div>
 
-    </section>
-<section class="recommendations">
-    <div class="container">
-<h2>Recommended for you</h2>
-<ul>
-    <li>
-        <div class="course-card">
-            <img class="m" src="./assets/imgs/recomand/Rectangle 33.png">
-            <div class="cd" >
-            <div><img src="./assets/imgs/recomand/squer.png">
-                <p>Design</p> 
+        <div class="footer-bottom">
+            <p>&copy; 2025 BREW & BEAN. All rights reserved. Crafted with care.</p>
+            <div class="legal-links">
+                <a href="#">Privacy Policy</a>
+                <span class="separator">&bull;</span>
+                <a href="#">Terms of Service</a>
+                <span class="separator">&bull;</span>
+                <a href="#">Accessibility</a>
             </div>
-            <div>
-                <img src="./assets/imgs/recomand/clock.png">
-                <p>3 Months</p>
-            </div>
-            </div>
-            <h3>AWS Certified solutions Architect</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor</p>
-            <div class="profile">
-                    <a href="#"><img src="./assets/imgs/image 12.png" alt="profile"></a>
-                    <a href="#" class="name">Lina</a>
-                    <span class="h">100</span>
-                    <span class="e">80</span>
-                </div>
         </div>
-    </li>
-    <li>
-        <div class="course-card">
-            <img class="m" src="./assets/imgs/recomand/Group 40 (3).png">
-            <div class="cd" >
-            <div><img src="./assets/imgs/recomand/squer.png">
-                <p>Design</p> 
-            </div>
-            <div>
-                <img src="./assets/imgs/recomand/clock.png">
-                <p>3 Months</p>
-            </div>
-            </div>
-            <h3>AWS Certified solutions Architect</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor</p>
-            <div class="profile">
-                    <a href="#"><img src="./assets/imgs/image 12.png" alt="profile"></a>
-                    <a href="#" class="name">Lina</a>
-                    <span class="h">100</span>
-                    <span class="e">80</span>
-                </div>
-        </div>
-    </li>
-    <li>
-        <div class="course-card">
-            <img class="m" src="./assets/imgs/recomand/Rectangle 33.png">
-            <div class="cd" >
-            <div><img src="./assets/imgs/recomand/squer.png">
-                <p>Design</p> 
-            </div>
-            <div>
-                <img src="./assets/imgs/recomand/clock.png">
-                <p>3 Months</p>
-            </div>
-            </div>
-            <h3>AWS Certified solutions Architect</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor</p>
-            <div class="profile">
-                    <a href="#"><img src="./assets/imgs/image 12.png" alt="profile"></a>
-                    <a href="#" class="name">Lina</a>
-                    <span class="h">100</span>
-                    <span class="e">80</span>
-                </div>
-        </div>
-    </li>
-  <li>
-        <div class="course-card">
-            <img class="m" src="./assets/imgs/recomand/Group 40 (3).png">
-            <div class="cd" >
-            <div><img src="./assets/imgs/recomand/squer.png">
-                <p>Design</p> 
-            </div>
-            <div>
-                <img src="./assets/imgs/recomand/clock.png">
-                <p>3 Months</p>
-            </div>
-            </div>
-            <h3>AWS Certified solutions Architect</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor</p>
-            <div class="profile">
-                    <a href="#"><img src="./assets/imgs/image 12.png" alt="profile"></a>
-                    <a href="#" class="name">Lina</a>
-                    <span class="h">100</span>
-                    <span class="e">80</span>
-                </div>
-        </div>
-    </li>   
-</ul>
     </div>
-</section>
-<section class="recommendations">
-    <div class="container" id="new">
-<h2>Get choice of your course</h2>
-<ul>
-    <li>
-        <div class="course-card">
-            <img class="m" src="./assets/imgs/recomand/Rectangle 33.png">
-            <div class="cd" >
-            <div><img src="./assets/imgs/recomand/squer.png">
-                <p>Design</p> 
-            </div>
-            <div>
-                <img src="./assets/imgs/recomand/clock.png">
-                <p>3 Months</p>
-            </div>
-            </div>
-            <h3>AWS Certified solutions Architect</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor</p>
-            <div class="profile">
-                    <a href="#"><img src="./assets/imgs/image 12.png" alt="profile"></a>
-                    <a href="#" class="name">Lina</a>
-                    <span class="h">100</span>
-                    <span class="e">80</span>
-                </div>
-        </div>
-    </li>
-    <li>
-        <div class="course-card">
-            <img class="m" src="./assets/imgs/recomand/Group 40 (3).png">
-            <div class="cd" >
-            <div><img src="./assets/imgs/recomand/squer.png">
-                <p>Design</p> 
-            </div>
-            <div>
-                <img src="./assets/imgs/recomand/clock.png">
-                <p>3 Months</p>
-            </div>
-            </div>
-            <h3>AWS Certified solutions Architect</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor</p>
-            <div class="profile">
-                    <a href="#"><img src="./assets/imgs/image 12.png" alt="profile"></a>
-                    <a href="#" class="name">Lina</a>
-                    <span class="h">100</span>
-                    <span class="e">80</span>
-                </div>
-        </div>
-    </li>
-    <li>
-        <div class="course-card">
-            <img class="m" src="./assets/imgs/recomand/Rectangle 33.png">
-            <div class="cd" >
-            <div><img src="./assets/imgs/recomand/squer.png">
-                <p>Design</p> 
-            </div>
-            <div>
-                <img src="./assets/imgs/recomand/clock.png">
-                <p>3 Months</p>
-            </div>
-            </div>
-            <h3>AWS Certified solutions Architect</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor</p>
-            <div class="profile">
-                    <a href="#"><img src="./assets/imgs/image 12.png" alt="profile"></a>
-                    <a href="#" class="name">Lina</a>
-                    <span class="h">100</span>
-                    <span class="e">80</span>
-                </div>
-        </div>
-    </li>
-  <li>
-        <div class="course-card">
-            <img class="m" src="./assets/imgs/recomand/Group 40 (3).png">
-            <div class="cd" >
-            <div><img src="./assets/imgs/recomand/squer.png">
-                <p>Design</p> 
-            </div>
-            <div>
-                <img src="./assets/imgs/recomand/clock.png">
-                <p>3 Months</p>
-            </div>
-            </div>
-            <h3>AWS Certified solutions Architect</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor</p>
-            <div class="profile">
-                    <a href="#"><img src="./assets/imgs/image 12.png" alt="profile"></a>
-                    <a href="#" class="name">Lina</a>
-                    <span class="h">100</span>
-                    <span class="e">80</span>
-                </div>
-        </div>
-    </li>   
-</ul>
-    </div>
-</section>
-<footer>
-    <div class="logo">
-    <img src="./assets/imgs/logo12.svg" alt="logo">
-     <div class="separator"></div>   
-     <p class="lo">Virtual Class for Zoom</p> 
-     </div>
-    <h3>Subscribe to get our Newsletter</h3>
-    <form>
-      <input type="email" placeholder="Your Email" required>
-      <button type="submit">Subscribe</button>
-    </form>
-
-  <nav class="footer-nav">
-    <ul>
-      <li><a href="#">Careers</a></li>
-      <li><a href="#">Privacy Policy</a></li>
-      <li><a href="#">Terms & Conditions</a></li>
-    </ul>
-  </nav>
-  <p class="copyright">&copy; 2021 Class Technologies Inc.</p>
-</footer>
+        </footer>
 
 </body>
+
 </html>

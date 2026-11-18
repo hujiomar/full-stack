@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 a{
+
     text-decoration: none;
 }
 button{
@@ -12,9 +13,6 @@ button{
 }
 ul{
     list-style-type: none;
-}
-.container{
-    margin: 0 120px;
 }
 .row{
     display: flex;
